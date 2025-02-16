@@ -1,12 +1,6 @@
-h1, h2, h3, h4, h5, h6, p, ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+
 .container {
     width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
@@ -14,6 +8,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    margin: 0 auto;
+    padding: 0 15px;
   }
 .sec-title,.section-title{
     font-family: "Roboto", sans-serif;
@@ -22,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     text-decoration: underline;
     text-align: center;
 }
-header{
+.header-total{
     background-color: #e7e9fc;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
@@ -31,20 +27,11 @@ header{
     letter-spacing: 0.03em;
     line-height: 1.17;  
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
-.features-item, .team-members, .port-item {
-    margin: 0;
-  }
-.team-members, .port-item {
-    margin-bottom: 20px;
-    height: auto;
-  }
-.sec-text, .section-text, .sec-port {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    margin: 0;
-  }
+
 img {
+    display: block;
     max-width: 100%;
     height: auto;
   }
@@ -55,7 +42,12 @@ img {
 /* nav bölümü */
 .nav-link{
     display: flex;
-    gap: 10px; 
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+
 }
 .nav-link-body-medium{
     font-family: "Roboto", sans-serif;
@@ -64,6 +56,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .nav-link-body-medium:hover,
 .nav-link-body-medium:focus{
@@ -82,6 +75,7 @@ img {
     color: #4d5ae5; 
     text-transform: uppercase; 
     text-decoration: none; 
+    margin-right: 76px;
 
 }
 .logo-link .logo-studio{
@@ -103,6 +97,10 @@ img {
     text-decoration: none;
 
 }
+.address-link{
+    display: flex;
+    gap: 40px;
+}
 .address-link-body-small:hover,
 .address-link-body-small:active{
     color: #404bbf;
@@ -113,13 +111,17 @@ img {
 /*Section 1.bölüm*/
 .sec-text{
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .sec-title{
     font-size: 56px; 
     line-height: 1.07;
     color:#ffffff;
-    margin-bottom: 40px;
-    
+    max-width: 496px
+    text-align:center;
+}
+.sec-total{
+    padding: 188px 0;
 }
 .button-text{
     font-family: "Roboto", sans-serif;
@@ -130,6 +132,12 @@ img {
     background-color: #4d5ae5;
     color: #ffffff;
     text-align: center;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;;
     
 }
 .button-text:hover,
@@ -153,7 +161,7 @@ img {
     line-height: 1.11;
     color: #2e2f42;
     text-transform: capitalize;
-
+    margin-bottom: 72px;
 }
 .section-text{
     background-color: #f4f4fd;
@@ -165,24 +173,53 @@ img {
     letter-spacing: 0.02em;
     line-height: 1.2;
     color:#2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
-.feature-text {
+.features-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
+}
+.features-list, .team-list{
+    display: flex;
+    gap: 24px;
+}
+.features-list-total{
+    flex-basis: calc((100% - 72px) / 4);
 }
 .team-members {
     background-color: #ffffff; 
 }
+.team-list-total{
+    padding: 32px 0;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
+}
 .port-item {
     background-color: #ffffff; 
     border-bottom: 1px solid #e7e9fc;
+    flex-basis: calc((100% - 72px) / 3);
+}
+.port-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.list-total{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 /*Footer bölümü*/
 .page-footer {
     background-color: #2e2f42;
-    padding: 20px;
+    padding: 100px 0;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -193,6 +230,8 @@ img {
     color: #4d5ae5; 
     text-decoration: none; 
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-logo-part {
     color: #f4f4fd; 
@@ -205,4 +244,5 @@ img {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    max-width: 264px;
 }
