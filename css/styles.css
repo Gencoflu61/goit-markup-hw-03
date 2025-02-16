@@ -1,0 +1,208 @@
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+  }
+.sec-title,.section-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+    text-align: center;
+}
+header{
+    background-color: #e7e9fc;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;  
+    border-bottom: 1px solid #e7e9fc;
+}
+.features-item, .team-members, .port-item {
+    margin: 0;
+  }
+.team-members, .port-item {
+    margin-bottom: 20px;
+    height: auto;
+  }
+.sec-text, .section-text, .sec-port {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0;
+  }
+img {
+    max-width: 100%;
+    height: auto;
+  }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+/* nav bölümü */
+.nav-link{
+    display: flex;
+    gap: 10px; 
+}
+.nav-link-body-medium{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.nav-link-body-medium:hover,
+.nav-link-body-medium:focus{
+    color: #404bbf;
+}
+.nav-link-body-medium:active{
+    color: #404bbf;
+    text-decoration: underline;
+}
+.logo-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    color: #4d5ae5; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+
+}
+.logo-link .logo-studio{
+    color: #2e2f42;
+}
+/*address bölümü*/
+.address-info{
+    font-style: normal;
+    display: flex;
+    gap: 10px; 
+    flex-direction: row;
+}
+.address-link-body-small{
+    font-style: normal;
+    color: #434455;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+.address-link-body-small:hover,
+.address-link-body-small:active{
+    color: #404bbf;
+}
+.address-link-body-small:focus{
+    color: #404bbf;
+}
+/*Section 1.bölüm*/
+.sec-text{
+    background-color: #2e2f42;
+}
+.sec-title{
+    font-size: 56px; 
+    line-height: 1.07;
+    color:#ffffff;
+    margin-bottom: 40px;
+    
+}
+.button-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.button-text:hover,
+.button-text:focus{
+    background-color:#404bbf;
+    color: #ffffff;
+    cursor: pointer;
+}
+.features-item{
+  background-color: #ffffff;
+  margin-bottom:0; 
+  padding: 20px ;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+/*Section 2-3-4 bölüm*/
+
+.section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    text-transform: capitalize;
+
+}
+.section-text{
+    background-color: #f4f4fd;
+}
+.features-title{
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color:#2e2f42;
+}
+.feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.team-members {
+    background-color: #ffffff; 
+}
+.port-item {
+    background-color: #ffffff; 
+    border-bottom: 1px solid #e7e9fc;
+}
+/*Footer bölümü*/
+.page-footer {
+    background-color: #2e2f42;
+    padding: 20px;
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    color: #4d5ae5; 
+    text-decoration: none; 
+    text-transform: uppercase;
+}
+.footer-logo-part {
+    color: #f4f4fd; 
+}
+
+.footer-text {
+    color: #f4f4fd;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
