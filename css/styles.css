@@ -30,6 +30,8 @@ body {
 .container{
     width: 1158px;
     padding: 0 15px;
+    display: flex;
+    margin: 0 auto
     
 }
 
@@ -153,7 +155,7 @@ img {
   padding: 20px ;
   flex-wrap: wrap;
   flex-direction: column;
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 /*Section 2-3-4 bölüm*/
 .section-text{
@@ -166,7 +168,7 @@ img {
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-.visually-hidden-title {
+.visually-hidden{
     @include visually-hidden;
   }
 .sec-text-fea{
@@ -195,35 +197,42 @@ img {
     gap: 24px;
 }
 .team-members {
-    background-color: #ffffff; 
-    width: calc((100% - 72px) / 4);
+    background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
-.team-info{
+.team-info-1{
     padding: 32px 0;
+    
 }
 
 .port-item {
     background-color: #ffffff; 
     border-bottom: 1px solid #e7e9fc;
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     
 }
 .port-list{
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 48px;
 }
 .port-info{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+    
 }
 .list-total{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
+}
+.sec-port{
+    padding: 120px 0;
 }
 /*Footer bölümü*/
 .page-footer {
