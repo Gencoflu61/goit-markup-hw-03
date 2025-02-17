@@ -155,7 +155,7 @@ img {
   padding: 20px ;
   flex-wrap: wrap;
   flex-direction: column;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 /*Section 2-3-4 bölüm*/
 .section-text{
@@ -199,9 +199,9 @@ img {
 .team-members {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4); 
 }
-.team-info-1{
+.team-info-list{
     padding: 32px 0;
     
 }
@@ -209,7 +209,7 @@ img {
 .port-item {
     background-color: #ffffff; 
     border-bottom: 1px solid #e7e9fc;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     
 }
 .port-list{
@@ -218,7 +218,7 @@ img {
     flex-wrap: wrap;
     row-gap: 48px;
 }
-.port-info{
+.port-info-list{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
