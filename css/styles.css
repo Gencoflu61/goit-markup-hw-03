@@ -168,7 +168,7 @@ img{
     text-decoration: underline;
     text-align: center;
 }
-.visually-hidden {
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
