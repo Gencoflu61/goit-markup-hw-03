@@ -6,8 +6,6 @@ body{
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    margin: 0 auto;
-    padding: 0 15px;
   }
   .header-c{
     border-bottom: 1px solid #e7e9fc;
@@ -24,7 +22,7 @@ body{
     width: 1158px;
     padding: 0 15px;
     display: flex;
-    margin: 0 auto
+    margin: 0 auto;
     
 }
 
@@ -170,8 +168,15 @@ img{
     text-decoration: underline;
     text-align: center;
 }
-.visually-hidden{
-    @include visually-hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
   }
 .sec-text-fea{
     background-color: #f4f4fd;
