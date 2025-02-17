@@ -31,10 +31,7 @@ img{
     max-width: 100%;
     height: auto;
   }
-.section{
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
+
 /* nav bölümü */
 .nav-link{
     display: flex;
