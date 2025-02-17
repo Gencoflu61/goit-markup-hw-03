@@ -1,4 +1,4 @@
-body {
+body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
@@ -20,13 +20,6 @@ body {
     line-height: 1.17;  
     display: flex;
   }
-.sec-title,.section-title{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    text-decoration: underline;
-    text-align: center;
-}
 .container{
     width: 1158px;
     padding: 0 15px;
@@ -35,12 +28,12 @@ body {
     
 }
 
-img {
+img{
     display: block;
     max-width: 100%;
     height: auto;
   }
-.section {
+.section{
     padding-top: 120px;
     padding-bottom: 120px;
   }
@@ -123,6 +116,11 @@ img {
     line-height: 1.07;
     color:#ffffff;
     max-width: 496px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+    text-align: center;
 }
 .button-text{
     font-family: "Roboto", sans-serif;
@@ -166,6 +164,11 @@ img {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-decoration: underline;
+    text-align: center;
 }
 .visually-hidden{
     @include visually-hidden;
@@ -191,11 +194,15 @@ img {
     color: #434455;
     text-align: center;
 }
-.features-list, .team-list{
+.features-list{
     display: flex;
     gap: 24px;
 }
-.team-members {
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+.team-members{
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 3 * 24px) / 4); 
@@ -205,7 +212,7 @@ img {
     
 }
 
-.port-item {
+.port-item{
     background-color: #ffffff; 
     border-bottom: 1px solid #e7e9fc;
     flex-basis: calc((100% - 3 * 24px) / 4);
@@ -234,11 +241,11 @@ img {
     padding: 120px 0;
 }
 /*Footer bölümü*/
-.page-footer {
+.page-footer{
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.footer-logo {
+.footer-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -247,14 +254,14 @@ img {
     color: #4d5ae5; 
     text-decoration: none; 
     text-transform: uppercase;
-    display: inline-block;
     margin-bottom: 16px;
+    display: inline-block;
 }
-.footer-logo-part {
+.footer-logo-part{
     color: #f4f4fd; 
 }
 
-.footer-text {
+.footer-text{
     color: #f4f4fd;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
