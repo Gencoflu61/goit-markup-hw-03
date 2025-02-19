@@ -36,7 +36,7 @@ img{
     max-width: 100%;
     height: auto;
   }
-.sec-title,.section-title{
+.sec-title, .section-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     letter-spacing: 0.02em;
