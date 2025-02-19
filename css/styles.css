@@ -18,11 +18,17 @@ body{
     line-height: 1.17;  
     display: flex;
   }
-.container{
-    width: 1158px;
-    padding: 0 15px;
+
+.header-container{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
     
 }
 
