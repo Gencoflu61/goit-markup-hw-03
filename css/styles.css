@@ -18,19 +18,15 @@ body{
     line-height: 1.17;  
     display: flex;
   }
-
-.header-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .container{
-    margin: 0 auto;
+    width: 1158px;
     padding: 0 15px;
-    width: 1158px
+    display: flex;
+    margin: 0 auto;
     
 }
+
+
 
 img{
     display: block;
