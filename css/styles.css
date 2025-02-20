@@ -6,31 +6,11 @@ body{
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-  }
-.header-c{
-    border-bottom: 1px solid #e7e9fc;
-    background-color: #e7e9fc;
-    color: #4d5ae5;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    line-height: 1.17;  
-    display: flex;
-  }
-.container{
-    width: 1158px;
-    padding: 0 15px;
-    display: flex;
-    margin: 0 auto;
-    
 }
-
 img{
     display: block;
-    max-width: 100%;
-    height: auto;
-  }
+}
+
 .sec-title,.section-title{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -38,13 +18,33 @@ img{
     text-decoration: underline;
     text-align: center;
 }
+.header-top{
+    background-color: #e7e9fc;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;  
+    border-bottom: 1px solid #e7e9fc;
+    
+}
+.header-c{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
 
 /* nav bölümü */
-.nav-link{
+.nav-top{
     display: flex;
     align-items: center;
 }
-.header-list{
+.nav-link{
     display: flex;
     gap: 40px;
 
@@ -57,6 +57,7 @@ img{
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+
 }
 .nav-link-body-medium:hover,
 .nav-link-body-medium:focus{
@@ -84,9 +85,10 @@ img{
 /*address bölümü*/
 .address-info{
     font-style: normal;
+}
+.address-link{
     display: flex;
-    gap: 10px; 
-    flex-direction: row;
+    gap: 40px;
 }
 .address-link-body-small{
     font-style: normal;
@@ -96,10 +98,6 @@ img{
     line-height: 1.5;
     text-decoration: none;
 
-}
-.address-link{
-    display: flex;
-    gap: 40px;
 }
 .address-link-body-small:hover,
 .address-link-body-small:active{
@@ -113,7 +111,6 @@ img{
     background-color: #2e2f42;
     padding: 188px 0;
 }
-
 .sec-title{
     font-size: 56px; 
     line-height: 1.07;
@@ -130,13 +127,13 @@ img{
     color: #ffffff;
     text-align: center;
     display: block;
-    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     border: none;
-    border-radius: 4px;;
+    background-color: #4d5ae5;
+    border-radius: 4px;
     cursor: pointer;
-    
+    margin: 0 auto;
 }
 .button-text:hover,
 .button-text:focus{
@@ -144,25 +141,9 @@ img{
     color: #ffffff;
     cursor: pointer;
 }
-.features-item{
-  background-color: #ffffff;
-  margin-bottom:0; 
-  padding: 20px ;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: calc((100% - 72px) / 4);
-}
 /*Section 2-3-4 bölüm*/
-.section-text{
+.sec-top{
     padding: 120px 0;
-}
-.section-title{
-    font-size: 36px;
-    line-height: 1.11;
-    color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-    max-width: 496px;
 }
 .visually-hidden{
     position: absolute;
@@ -173,20 +154,24 @@ img{
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
-  }
-.h2Section{
-    margin-bottom: 8px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:#2E2F42;
-    font-style: normal;
-  }
-.sec-text-fea{
+}
+.section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.section-text{
     background-color: #f4f4fd;
     padding: 120px 0;
 }
+.feature-item{
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
+}
+
 .features-title{
     font-size: 20px;
     font-family: "Roboto", sans-serif;
@@ -194,68 +179,54 @@ img{
     letter-spacing: 0.02em;
     line-height: 1.2;
     color:#2e2f42;
-    text-align: center;
     margin-bottom: 8px;
 }
-.features-text{
+.feature-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
 }
-.features-list{
-    display: flex;
-    gap: 24px;
-}
 .team-list{
     display: flex;
     gap: 24px;
 }
-.team-members{
-    background-color: #ffffff;
-    border-radius: 0px 0px 4px 4px;
-    flex-basis: calc((100% - 72px) / 4);
-}
-.team-info-list{
-    padding: 32px 0;
-    
-}
-
-.port-item{
+.team-members {
     background-color: #ffffff; 
-    border-bottom: 1px solid #e7e9fc;
-    flex-basis: calc((100% - 3 * 24px) / 3);
-    
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
-.port-list{
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    row-gap: 48px;
-}
-.port-info-list{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
-    
-}
-.list-total{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px;
+.team-bar{
+    padding: 32px 0;
 }
 .sec-port{
     padding: 120px 0;
 }
+.port-list{
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+    
+}
+.port-bar{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+   
+}
+.port-item {
+    background-color: #ffffff; 
+    flex-basis: calc((100% - 72px) / 4);
+}
 /*Footer bölümü*/
-.page-footer{
+.page-footer {
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.footer-logo{
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -266,13 +237,12 @@ img{
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-    
 }
-.footer-logo-part{
+.footer-logo-part {
     color: #f4f4fd; 
 }
 
-.footer-text{
+.footer-text {
     color: #f4f4fd;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -280,5 +250,4 @@ img{
     letter-spacing: 0.02em;
     line-height: 1.5;
     max-width: 264px;
-} 
-
+}
