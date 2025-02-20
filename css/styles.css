@@ -6,45 +6,12 @@ body{
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-<<<<<<< HEAD
-=======
-  }
-.header-c{
-    border-bottom: 1px solid #e7e9fc;
-    background-color: #e7e9fc;
-    color: #4d5ae5;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    line-height: 1.17;  
-    display: flex;
-  }
-.header-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.container{
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    
->>>>>>> e86b27b1814c77c3cf56b086c8073762395ed805
 }
 img{
     display: block;
-<<<<<<< HEAD
 }
 
 .sec-title,.section-title{
-=======
-    max-width: 100%;
-    height: auto;
-  }
-.sec-title, .section-title{
->>>>>>> e86b27b1814c77c3cf56b086c8073762395ed805
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     letter-spacing: 0.02em;
