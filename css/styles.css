@@ -31,6 +31,8 @@ img{
 }
 .header-c{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .container{
     width: 1158px;
