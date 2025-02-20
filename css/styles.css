@@ -17,7 +17,7 @@ img{
     letter-spacing: 0.02em;
     text-decoration: underline;
     text-align: center;
-}
+}  
 .header-top{
     background-color: #e7e9fc;
     color: #4d5ae5;
@@ -118,6 +118,7 @@ img{
     line-height: 1.07;
     color:#ffffff;
     max-width: 496px;
+
 }
 .button-text{
     font-family: "Roboto", sans-serif;
@@ -168,7 +169,7 @@ img{
     background-color: #f4f4fd;
     padding: 120px 0;
 }
-.feature-item{
+.features-item{
     display: flex;
     gap: 24px;
     flex-basis: calc((100% - 72px) / 4);
