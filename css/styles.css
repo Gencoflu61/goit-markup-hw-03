@@ -183,8 +183,9 @@ img{
     line-height: 1.2;
     color:#2e2f42;
     margin-bottom: 8px;
+    text-align: center;
 }
-.feature-text {
+.features-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
