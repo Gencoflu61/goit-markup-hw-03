@@ -172,7 +172,6 @@ img{
     padding: 120px 0;
 }
 .features-item{
-    background-color: #ffffff; 
     flex-basis: calc((100% - 72px) / 4);
 }
 .features-title{
