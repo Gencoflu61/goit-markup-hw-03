@@ -172,7 +172,7 @@ img{
     padding: 120px 0;
 }
 .features-item{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .features-title{
     font-size: 20px;
