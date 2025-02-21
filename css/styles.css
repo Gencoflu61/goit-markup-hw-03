@@ -191,13 +191,17 @@ img{
     color: #434455;
     
 }
-.team-list{
+.features-list{
         display: flex;
         gap: 24px;
         list-style: none;
         padding: 0;
         margin-top: 72px;
         margin-right: 24px;
+}
+.team-list{
+    display: flex;
+    gap: 24px;
 }
 .team-members {
     background-color: #ffffff; 
