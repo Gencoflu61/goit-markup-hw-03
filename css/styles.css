@@ -172,11 +172,9 @@ img{
     padding: 120px 0;
 }
 .features-item{
-    width: calc((100% - 72px) / 4);
-    list-style-type: none;
-    text-decoration: none;
+    background-color: #ffffff; 
+    flex-basis: calc((100% - 72px) / 4);
 }
-
 .features-title{
     font-size: 20px;
     font-family: "Roboto", sans-serif;
