@@ -238,6 +238,7 @@ img{
     row-gap: 48px;
     flex-wrap: wrap;
     list-style: none;
+    margin-left: -50px;
     
 }
 .port-bar{
