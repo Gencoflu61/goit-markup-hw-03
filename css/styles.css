@@ -38,7 +38,6 @@ img{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-
 }
 
 /* nav bölümü */
@@ -118,6 +117,7 @@ img{
     line-height: 1.07;
     color:#ffffff;
     max-width: 496px;
+    
 }
 .button-text{
     font-family: "Roboto", sans-serif;
@@ -238,6 +238,7 @@ img{
     row-gap: 48px;
     flex-wrap: wrap;
     list-style: none;
+    margin-left: -50px;
     
 }
 .port-bar{
